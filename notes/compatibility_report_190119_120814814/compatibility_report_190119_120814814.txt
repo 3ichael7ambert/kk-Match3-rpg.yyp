@@ -1,0 +1,211 @@
+Converting GML script: ${project_dir}\scripts\scr_create_in_grid\scr_create_in_grid.gml
+Converted description /// @description  Creates a new instance adhered to a grid.
+
+Converting GML script: ${project_dir}\scripts\scr_check_adjacent\scr_check_adjacent.gml
+Converted description /// @description  Finds the total number of matching, adjacent pieces
+
+Converting GML script: ${project_dir}\scripts\scr_check_board\scr_check_board.gml
+Converted description /// @description  Checks each piece on the board for matches.
+
+Converting GML script: ${project_dir}\scripts\scr_fenix_attack\scr_fenix_attack.gml
+Converted description /// @description  change animation to attack animation
+
+Converting GML script: ${project_dir}\scripts\scr_sorcier_idle\scr_sorcier_idle.gml
+Converted builtin - line 15: background_hspeed[1] -> __background_get( e__BG.HSpeed, 1 )
+Converted builtin - line 17: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 18: background_hspeed[2] = 0 -> __background_set( e__BG.HSpeed, 2, 0 )
+Converted builtin - line 19: background_hspeed[3] = 0 -> __background_set( e__BG.HSpeed, 3, 0 )
+Converted builtin - line 20: background_hspeed[4] = 0 -> __background_set( e__BG.HSpeed, 4, 0 )
+Converted description /// @description  Stop and assign the idle animation
+
+Converting GML script: ${project_dir}\scripts\scr_sorcier_attack2\scr_sorcier_attack2.gml
+Converted description /// @description scr_sorcier_attack2(enemy_object,ene_distance_between,damage)/// @param enemy_object
+/// @param ene_distance_between
+/// @param damage
+
+Converting GML script: ${project_dir}\scripts\scr_sorcier_magic\scr_sorcier_magic.gml
+Converted description /// @description 
+
+Converting GML script: ${project_dir}\scripts\scr_sorcier_life\scr_sorcier_life.gml
+Converted description /// @description /
+
+Converting GML script: ${project_dir}\scripts\scr_sorcier_arrow\scr_sorcier_arrow.gml
+Converted description /// @description 
+
+Converting GML script: ${project_dir}\scripts\scr_sorcier_gun\scr_sorcier_gun.gml
+Converted description /// @description Bullet
+
+Converting GML script: ${project_dir}\scripts\scr_sorcier_sword\scr_sorcier_sword.gml
+Converted description /// @description scr_sorcier_sword(enemy,distance_between)/// @param enemy
+/// @param distance_between
+
+Converting GML script: ${project_dir}\scripts\scr_sorcier_run\scr_sorcier_run.gml
+Converted builtin - line 3: background_hspeed[1] -> __background_get( e__BG.HSpeed, 1 )
+Converted builtin - line 5: background_hspeed[1] = -0.5 -> __background_set( e__BG.HSpeed, 1, -0.5 )
+Converted builtin - line 6: background_hspeed[2] = -1 -> __background_set( e__BG.HSpeed, 2, -1 )
+Converted builtin - line 7: background_hspeed[3] = -1.5 -> __background_set( e__BG.HSpeed, 3, -1.5 )
+Converted builtin - line 8: background_hspeed[4] = -2 -> __background_set( e__BG.HSpeed, 4, -2 )
+Converted description /// @description  if no enemys
+
+Converting GML script: ${project_dir}\scripts\scr_create_particle\scr_create_particle.gml
+Converted description /// @description scr_create_particle(part_index,number of particles)/// @param part_index
+/// @param number of particles
+
+Converting GML script: ${project_dir}\scripts\scr_shot_proyectil\scr_shot_proyectil.gml
+Converted description /// @description scr_shot_proyectil(object to shot , speed)/// @param object to shot 
+/// @param  speed
+
+Converting GML script: ${project_dir}\scripts\scr_proyectil_impact\scr_proyectil_impact.gml
+Converted description /// @description 
+
+Converting GML script: ${project_dir}\scripts\scr_end_auto\scr_end_auto.gml
+Converted description /// @description prevent continuing create pieces,particles,skills
+
+Converting GML script: ${project_dir}\scripts\scr_sorcier_auto_special\scr_sorcier_auto_special.gml
+Converted builtin - line 14: background_hspeed[1] -> __background_get( e__BG.HSpeed, 1 )
+Converted builtin - line 57: background_hspeed[1] -> __background_get( e__BG.HSpeed, 1 )
+Converted builtin - line 95: background_hspeed[0] -> __background_get( e__BG.HSpeed, 0 )
+Converted builtin - line 16: background_hspeed[1] = -1 -> __background_set( e__BG.HSpeed, 1, -1 )
+Converted builtin - line 17: background_hspeed[2] = -2 -> __background_set( e__BG.HSpeed, 2, -2 )
+Converted builtin - line 18: background_hspeed[3] = -3 -> __background_set( e__BG.HSpeed, 3, -3 )
+Converted builtin - line 19: background_hspeed[4] = -4 -> __background_set( e__BG.HSpeed, 4, -4 )
+Converted builtin - line 59: background_hspeed[1] = -0.2 -> __background_set( e__BG.HSpeed, 1, -0.2 )
+Converted builtin - line 60: background_hspeed[2] = -0.5 -> __background_set( e__BG.HSpeed, 2, -0.5 )
+Converted builtin - line 61: background_hspeed[3] = -0.75 -> __background_set( e__BG.HSpeed, 3, -0.75 )
+Converted builtin - line 62: background_hspeed[4] = -1 -> __background_set( e__BG.HSpeed, 4, -1 )
+Converted builtin - line 97: background_hspeed[1] = -0.5 -> __background_set( e__BG.HSpeed, 1, -0.5 )
+Converted builtin - line 98: background_hspeed[2] = -1 -> __background_set( e__BG.HSpeed, 2, -1 )
+Converted builtin - line 99: background_hspeed[3] = -1.5 -> __background_set( e__BG.HSpeed, 3, -1.5 )
+Converted builtin - line 100: background_hspeed[4] = -2 -> __background_set( e__BG.HSpeed, 4, -2 )
+
+!!! Font fnt_title uses a font (Charlemagne Std) not installed on this system - Font has NOT been regenerated
+!!! Font fnt_main uses a font (Charlemagne Std) not installed on this system - Font has NOT been regenerated
+Converting GML script: ${project_dir}\objects\obj_grid_manager\Create_0.gml
+Converted description /// @description  Creates the grid and the pieces on the board, storing them into arrays.
+
+Converting GML script: ${project_dir}\objects\obj_grid_manager\Alarm_2.gml
+Converted description /// @description  Goes to the main menu room.
+
+Converting GML script: ${project_dir}\objects\obj_grid_manager\Alarm_1.gml
+Converted description /// @description  Ends the game.
+
+Converting GML script: ${project_dir}\objects\obj_grid_manager\Alarm_0.gml
+Converted description /// @description  Reorganizes the board and triggers explosions.
+
+Converting GML script: ${project_dir}\objects\obj_grid_manager\Draw_0.gml
+Converted description /// @description  Draw's the board's UI.
+
+Converting GML script: ${project_dir}\objects\obj_puzzle_piece\Create_0.gml
+Converted description /// @description  Initializes variables for instances of obj_puzzle_piece.
+
+Converting GML script: ${project_dir}\objects\obj_puzzle_piece\Alarm_1.gml
+Converted description /// @description  Moves the puzzle piece towards the y goal using gravity.
+
+Converting GML script: ${project_dir}\objects\obj_puzzle_piece\Alarm_0.gml
+Converted description /// @description  Moves puzzle piece towards goal smoothly.
+
+Converting GML script: ${project_dir}\objects\obj_puzzle_piece\Step_0.gml
+Converted description /// @description Creating a scale effect for Pieces(disable this for best performance)/// @param disable this for best performance
+
+Converting GML script: ${project_dir}\objects\obj_grid_block\Mouse_56.gml
+Converted description /// @description  If the mouse is currently over the current piece, the piece is highlighted.
+
+Converting GML script: ${project_dir}\objects\obj_grid_block\Mouse_11.gml
+Converted description /// @description swapping pieces
+
+Converting GML script: ${project_dir}\objects\obj_grid_block\Mouse_4.gml
+Converted description /// @description  Sets the image_index to the down state.
+
+Converting GML script: ${project_dir}\objects\obj_controller_shockwave\Create_0.gml
+Converted builtin - line 12: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 13: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 16: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 17: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 33: view_visible[0] = true -> __view_set( e__VW.Visible, 0, true )
+Converted description /// @description Shader uniform setup
+
+Converting GML script: ${project_dir}\objects\obj_controller_shockwave\Destroy_0.gml
+Converted description /// @description Destroy Surfaces to free memory
+
+Converting GML script: ${project_dir}\objects\obj_controller_shockwave\Step_0.gml
+Converted builtin - line 4: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_yview -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Shockwave parameters
+
+Converting GML script: ${project_dir}\objects\obj_controller_shockwave\Draw_64.gml
+Converted builtin - line 24: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+Converted description /// @description Fullscreen draw
+
+Converting GML script: ${project_dir}\objects\obj_particle_manager\Create_0.gml
+Converted description /// @description  Initializes variables for the particle systems.
+
+Converting GML script: ${project_dir}\objects\obj_particle_manager\Destroy_0.gml
+Converted description /// @description Destroys all particle types managed by this object.
+
+Converting GML script: ${project_dir}\objects\obj_controller_mosaic\Create_0.gml
+Converted builtin - line 7: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 8: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 11: view_wview -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 12: view_hview -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_visible[0] = true -> __view_set( e__VW.Visible, 0, true )
+
+Converting GML script: ${project_dir}\objects\obj_controller_mosaic\Draw_64.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 19: view_surface_id[0] = surf -> __view_set( e__VW.SurfaceID, 0, surf )
+
+Converting GML script: ${project_dir}\objects\obj_main_menu\Create_0.gml
+Converted description /// @description  Initializes various instanced and global variables for the main menu.
+
+Converting GML script: ${project_dir}\objects\obj_main_menu\Mouse_56.gml
+Converted description /// @description  Checks each button. If the button was down, the menu press script is executed.
+
+Converting GML script: ${project_dir}\objects\obj_main_menu\Mouse_50.gml
+Converted description /// @description  Resets any highlighting performed by the mouse.
+
+Converting GML script: ${project_dir}\objects\obj_main_menu\Draw_0.gml
+Converted description /// @description  Draws all of the GUI for the main menu.
+
+Converting GML script: ${project_dir}\objects\obj_sorcier\Create_0.gml
+Converted description /// @description Set initial parameters
+
+Converting GML script: ${project_dir}\objects\obj_sorcier\Step_0.gml
+Converted description /// @description  Controlling the states
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\objects\obj_skills_creator\Create_0.gml
+Converted description /// @description  Create the skills button
+
+Converting GML script: ${project_dir}\objects\obj_container_controller\Create_0.gml
+Converted description /// @description Set the container skills
+
+Converting GML script: ${project_dir}\objects\obj_container_controller\Step_0.gml
+Converted description /// @description  Perform the buttons parameters
+
+Converting GML script: ${project_dir}\objects\obj_container_controller\Draw_0.gml
+Converted description /// @description Draw the containers values
+
+Converting GML script: ${project_dir}\objects\obj_container_creator\Create_0.gml
+Converted description /// @description  create the array containers
+
+Converting GML script: ${project_dir}\objects\obj_auto_controller\Step_0.gml
+Converted description /// @description Control the containers blocks
+
+Game speed set to 60
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
