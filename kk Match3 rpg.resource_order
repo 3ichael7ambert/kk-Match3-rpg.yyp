@@ -57,6 +57,7 @@
     {"name":"background2","order":4,"path":"sprites/background2/background2.yy",},
     {"name":"background5_tileset","order":1,"path":"tilesets/background5_tileset/background5_tileset.yy",},
     {"name":"background4_tileset","order":2,"path":"tilesets/background4_tileset/background4_tileset.yy",},
+    {"name":"spr_sorcier","order":5,"path":"sprites/spr_sorcier/spr_sorcier.yy",},
     {"name":"background6_tileset","order":3,"path":"tilesets/background6_tileset/background6_tileset.yy",},
     {"name":"scr_on_menu_button_pressed","order":1,"path":"scripts/scr_on_menu_button_pressed/scr_on_menu_button_pressed.yy",},
     {"name":"scr_swap_pieces","order":2,"path":"scripts/scr_swap_pieces/scr_swap_pieces.yy",},

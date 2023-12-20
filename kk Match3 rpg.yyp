@@ -91,6 +91,7 @@
     {"id":{"name":"background7_tileset","path":"tilesets/background7_tileset/background7_tileset.yy",},},
     {"id":{"name":"background5_tileset","path":"tilesets/background5_tileset/background5_tileset.yy",},},
     {"id":{"name":"background4_tileset","path":"tilesets/background4_tileset/background4_tileset.yy",},},
+    {"id":{"name":"spr_sorcier","path":"sprites/spr_sorcier/spr_sorcier.yy",},},
     {"id":{"name":"background6_tileset","path":"tilesets/background6_tileset/background6_tileset.yy",},},
     {"id":{"name":"path_life","path":"paths/path_life/path_life.yy",},},
     {"id":{"name":"scr_reorganize_board","path":"scripts/scr_reorganize_board/scr_reorganize_board.yy",},},
